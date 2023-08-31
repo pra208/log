@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+}
+main{
+    display: flex;
+    color: darkmagenta;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main form{
+    width: 30%;
+    background-color: pink;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label,#user,#pass,a{
+    display: block;
+}
+
+label{
+    font-size: 30px;
+}
+#user,#pass{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+main form #but{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+    background-color: blueviolet;
+    color: white;
+}
+
+#cancel{
+    background-color: blue;
+}
+
+a{
+  text-decoration: none;
+  color: crimson;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: rgba(192, 116, 116, 0.575);
+}
+
+#user::placeholder{
+    color: red;
+}
+
+#pass::placeholder{
+    color: darkblue;
+}
+.fa-solid.fa-face-smile{
+    color: rgba(255, 255, 0, 0.603);
+    font-size: 30px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+#cuser{
+    position: relative;
+}
+.fa-solid.fa-user{
+    position:absolute;
+    color: black;
+    top: 16%;
+    left: 2%;
+}
+
+#cpass{
+    position: relative;
+}
+
+.fa-solid.fa-key{
+    position: absolute;
+    color: black;
+    top: 18%;
+    left: 2%;
+}
